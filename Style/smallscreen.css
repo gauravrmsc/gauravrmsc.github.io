@@ -104,7 +104,7 @@ body{
         margin:0 auto;
         width:90%;
         color:white;
-        
+        background-color:rgba(0,0,0,0.8)
         justify-content: center;
     }
     #intro h1{
@@ -158,7 +158,7 @@ body{
         height: 100px;
      }
        #basic-details-row{
-        
+        background-color: rgba(0,0,0,0.5);
            height: 700px;
        }
        #project-section-header-row{
@@ -172,7 +172,7 @@ body{
      margin-bottom: 40px;
     }
     #body tr{
-     background-color: rgba(0,0,0,0.7);
+     background-color: rgba(0,0,0,0.5);
     }
        #project_list{
 
