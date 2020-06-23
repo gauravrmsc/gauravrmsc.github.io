@@ -2,7 +2,7 @@ body{
         margin:0%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    .nav-btn:hover{
+    #home-btn{
         background-color:rgb(214, 65, 11);
     }
     .nav-btn{
@@ -10,9 +10,9 @@ body{
         text-decoration:none;
         position:relative;
         float:left;
-        padding:20px 10px;
+        padding:50px 10px;
         
-        font-size:25px;
+        font-size:50px;
       
     }
     .icon-nav{
@@ -20,7 +20,7 @@ body{
         padding: 20px;
         padding-left: 0px;
     }
-    #about img{
+  /*  #about img{
         position:relative;
         width:405px;
         float:left;
@@ -41,7 +41,7 @@ body{
         background-position-x: 40%;
 
         
-    }
+    }*/
     #body{
         height:100%;
         background-image:url('../images/Profile_Pic/y.jpg');
@@ -62,32 +62,33 @@ body{
         z-index:300;
         line-height: 100%;
     }
-    #home{
+    /*#home{
         background-color: rgba(0,0,0,0);
         width:100%;
         height:100%;
         text-align:center;
         position:relative;
-    }
-    #project{
+    }*/
+    .project{
         background-color: white;
-        height:230px;
-        width:230px;
+        height:430px;
+        width:90%;
         position: relative;
         border-radius: 20px;
         margin: 10px;
         display:inline-block;
         position:relative;
         color:white;
+        font-size: 40px;
     }
     #btn{
        /* border-style:solid;*/
         border-radius:10px;
-       height: 50px;
-        width:300px;
+       height: 100px;
+        width:400px;
       /*  border-width: 1px;*/
         display: inline-block;
-        font-size: 25px;
+        font-size: 40px;
         color: white;
         background-color: #0f4f72;
         text-decoration: none;
@@ -101,47 +102,119 @@ body{
     }
     #intro{
         margin:0 auto;
-        width:100%;
-        height:60%;
+        width:90%;
         color:white;
-        background-color: rgba(0,0,0,0.3);
         
+        justify-content: center;
     }
     #intro h1{
-        font-size: 50px;
+        font-size: 60px;
     }
     #intro h3{
-        font-size:30px;
+        font-size:40px;
     }
-    #intro h4{
-        font-size:25px
+    #intro h2{
+        font-size:50px
     }
     #profile_pic_div{
         display:block;
         text-align: center;
+        margin-top:100px;
     }
     #profile_pic {
         display:none;
     }
-    #project_title{
-        font-size: 19px;
+    .project_title{
+        font-size: 50px;
         background:rgba(0,0,0,0.8);
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
+        padding: 20px;
         }
-       .project_link{
-           position:absolute;
-           bottom:5px;
-           width:100%;
-           
+    .project_link{
+        position:absolute;
+        bottom:25px;
+        width:100%;       
+        font-weight: bold;
+    }
+    .project_link a {
+        text-decoration: underline;
+        
        }
-        a{
+       .subHedding{
+        height: 25px;
+        line-height: 25px;
+        margin-top:20px;
+        margin-bottom: 20px;
+        display: block;
+        text-decoration: underline;
+        font-weight: bold;
+       }
+    a {
         text-decoration: none;
         color:white;
+     }
+     #nav-bar-row{
+        height: 100px;
+     }
+       #basic-details-row{
+        
+           height: 700px;
        }
-
+       #project-section-header-row{
+        height: 60px;
+    }
+    #project-header{
+     position:absolute;
+     color: white;
+     font-size:50;
+     font-weight: bold;
+     margin-bottom: 40px;
+    }
+    #body tr{
+     background-color: rgba(0,0,0,0.7);
+    }
        #project_list{
 
-        bottom:10px;
-        display:inline-block;
+        display: flex;
+    align-items: center;
+    justify-content: center;
        }
+       #about-section{
+        position:absolute;
+        background-color:#0f4f72;
+        color:white;
+        width:96%;
+        height: 500px;
+        top:140px;
+        left:0px;
+        box-shadow: 0 2px 10px -1px rgba(87, 97, 100, 0.35);
+        z-index:300;
+        line-height: 100%;
+        display:none;
+        padding:20px;
+        flex-direction: column;
+        font-size: 40px;
+    }
+    .about-info {
+        display:block;
+        position: relative;
+        width:100%;
+        text-align: center;
+        color: white;
+    }
+    .about-table{
+       color: white;
+       text-align: center;;
+       table-layout: fixed;
+    }
+    .about-table td{
+        width: 50%;
+        font-size: 40px;
+    }
+    .about-table th{
+        width: 50%;
+    }
+    .icon{
+        vertical-align:middle;
+    }
