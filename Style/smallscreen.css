@@ -1,6 +1,7 @@
 body{
         margin:0%;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgba(0,0,0,0.5);
     }
     #home-btn{
         background-color:rgb(214, 65, 11);
@@ -158,7 +159,7 @@ body{
         height: 100px;
      }
        #basic-details-row{
-        background-color: rgba(0,0,0,0.5);
+       /* background-color: rgba(0,0,0,0.5);*/
            height: 700px;
        }
        #project-section-header-row{
@@ -172,7 +173,7 @@ body{
      margin-bottom: 40px;
     }
     #body tr{
-     background-color: rgba(0,0,0,0.5);
+    /* background-color: rgba(0,0,0,0.5);*/
     }
        #project_list{
 
