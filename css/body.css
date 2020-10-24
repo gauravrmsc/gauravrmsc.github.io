@@ -1,0 +1,190 @@
+/* latin */
+@font-face {
+    font-family: 'SB Body';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Lato Italic'), local('Lato-Italic'),
+        url(https://fonts.gstatic.com/s/lato/v16/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+        U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+    font-family: 'SB Body';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Lato Bold Italic'), local('Lato-BoldItalic'),
+        url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2)
+            format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+        U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+    font-family: 'SB Body';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'),
+        url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+        U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+    font-family: 'SB Body';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'),
+        url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+        U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@media only screen and (min-width: 600px) {
+    #introCanvas {
+        position: absolute;
+        right: 10px;
+        /* transform: rotate(3deg); */
+        border-radius: 5%;
+        padding: 50px;
+        font-size: large;
+        text-align: justify;
+        box-shadow: 0 2px 30px -1px rgba(87, 97, 100, 0.35);
+        overflow: hidden;
+        height: fit-content;
+
+    }
+    #project_section{
+        padding: 3rem;
+         
+     }
+     .project_tile ul {
+        list-style: none;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    #introCanvas {
+        text-align: justify;
+    }
+    #project_section{
+        padding: 1 rem;
+         
+     }
+     .project_tile ul {
+        list-style: none;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+  }
+
+.gkmnavbar {
+    height: 4rem;
+    padding-top: 2px;
+}
+
+#homepage {
+    /* background-color: rgb(128,128,128); */
+    padding-top: 5rem;
+}
+ #overview {
+     text-align: center;
+ }
+#overview p {
+    font-size: 1rem;
+}
+#intro{
+    text-align: center;
+
+}
+
+/* #profile_pic_box {
+    width:250px;
+    height: 250px;
+    background-color: #2c3e50;
+} */
+#profile_pic_border {
+    width:5rem;
+    height: 5rem;
+    border-radius:50%;
+    background-color: antiquewhite;
+ }
+  #resumeLink{
+      
+      background-color: #2c3e50;
+      font-size: larger;
+  }
+.project_tile{
+    box-shadow: 0 2px 30px -1px rgba(87, 97, 100, 0.35);
+    /* border-radius: 6%; */
+    /* padding: 0px; */
+    /* height: 18rem; */
+    overflow: hidden;
+    height: fit-content;
+    /* width: 100%; */
+}
+.project_tile .project_title {
+    /* padding-left: 1rem; */
+    padding-top: 1rem;
+    /* background-color: #2c3e50; */
+    /* height: 4rem; */
+    /* border-bottom-style: solid; */
+    /* color: white; */
+    text-align: left;
+    /* border-top-left-radius: 18%;
+    border-top-right-radius: 28%; */
+    /* text-align: justify; */
+}
+.tile_container{
+    padding: 1rem;
+    text-align: center;
+}
+.project_description {
+    padding:1rem;
+    font-size: medium;
+    text-align: justify;
+}
+
+.github_link {
+
+    content:url("../assets/img/icons/black/GitHub-logo.png");
+}
+.github_link {
+    height: 2rem;
+    width: 2rem;
+}
+.project_footer {
+
+/* position : absolute; */
+/* bottom: 2rem; */
+margin-top: 1rem;
+}
+
+.tech_stack img {
+    width: 3rem;
+    height:3rem;
+    margin-right: 1rem;
+ 
+}
+.tech_stack {
+    color: rgba(0,0,0,0.6);
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#name{
+    font-size: 38px;
+}
+#role{
+    font-size : 24px;
+    color:rgba(0,0,0,0.6);
+}
+#intro{
+    color: black;
+}
+
+
+html {
+    scroll-behavior: smooth;
+  }
