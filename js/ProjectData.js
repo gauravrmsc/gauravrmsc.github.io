@@ -4,21 +4,23 @@ const projectData = [
         desc : "This is a spring boot application that finds Near-By Restaurants for a given location."+
                 " The application uses the Geo-Hashing technique to find Near-By Restaurants"+
                 " and Redis Cache as an in-memory cache to cache the search results. "+
-                "Response time for the cached results gets reduced to 80% of the normal response time resulting in a faster and seamless user experience.",
+                "Response time for the cached results gets reduced to 20% of the normal response time resulting in a faster and seamless user experience.",
         skills : "Java, Spring Boot, Caching, Geo-Hashing, Serialization and Deserialization"+
                  "of Java Objects.",
         url :  "https://github.com/gauravrmsc/Food-Delivery-Application"
     },
     {
         title : "Stock Portfolio Manager",
-        desc : "Stock Portfolio Manager is a visual stock portfolio analyser. It helps portfolio managers make trade recommendations for their clients. The application communicates with third-party APIs to collect Stock Quotes and presents user, the annualized and total returns on his purchased stocks.",
+        desc : "Stock Portfolio Manager is a visual stock portfolio analyzer."+
+                " The application communicates with third-party APIs like Tingo and Alpha Vantage to collect Stock Quotes and presents to the users the annualized and total returns on his purchased stocks."+
+                " This app helps portfolio managers make trade recommendations for their clients.",
         skills : "Java, REST API, Jackson, Interfaces, Code Refactoring, Gradle, Exception Handling, Multithreading",
         url : "https://github.com/gauravrmsc/Stock-Portfolio-Manager"
     },
     {
         title : "Ecommerce API",
         desc : "Web Back-End for an E-Commerce Application. "+
-               "The application uses JWT based authentication, BCrypt password encoder and Spring Security to secure the app against attacks like CORS attacks and CSRF attacks. ",
+               "The application uses JWT based authentication, BCrypt password encoder and Spring Security to secure the app against security attacks like CORS attacks and CSRF attacks. ",
         skills : "Spring Security, Google Cloud, Jenkins, Authentication Using JWT, Using filters for authorization.",
         url : "https://github.com/gauravrmsc/EcommerceAPI"
     },
@@ -30,8 +32,8 @@ const projectData = [
     },
     {
         title : "GQuiz",
-        desc : "GQuiz is an Q&A application. This application can be used to take online tests and quizes",
-        skills : "Object Relational Mapping, RESTful web services, JUnit, MySQL, Spring-Boot.",
+        desc : "GQuiz is an Q&A application. This application can be used to take online tests and quizes.",
+        skills : "Object Relational Mapping, RESTful web services, JUnit, MySQL, Spring-Boot",
         url : "https://github.com/gauravrmsc/Quiz-API"
     },
 
